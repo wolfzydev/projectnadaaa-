@@ -1,0 +1,57 @@
+/* style.css - versi aesthetic cantik */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #fce3ec, #ffe8d6);
+  color: #444;
+  text-align: center;
+  padding-top: 100px;
+}
+
+/* Container */
+.container {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  max-width: 400px;
+  width: 90%;
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: scale(1.02);
+}
+
+/* Judul */
+.container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #e07a5f;
+}
+
+/* Link */
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f4a261;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+a:hover {
+  background-color: #e76f51;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
